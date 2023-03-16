@@ -33,6 +33,10 @@ balanceOf[msg.sender] = senderBalance - amount;
 
 balanceOf[recipient] += amount;
 
+return true;
+
+// Need to finish this by tommorow.
+
 }
 
 }
